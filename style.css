@@ -131,7 +131,7 @@ cursor: pointer;
 content: '';
 width: 50px;
 height: 35px;
-background: linear-gradient(#d6c400,#fff);
+background: linear-gradient(#857c47,#fff);
 position: absolute;
 top: -20px;
 left: 0;
@@ -167,7 +167,7 @@ font-size: 50px;
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #d6c400;
+    color: #857c47;
 }
 .features-desc {
     display: flex;
@@ -180,8 +180,8 @@ height: 50px;
 font-size: 30px;
 line-height: 50px;
 border-radius: 8px;
-color: #d6c400;
-border: 1px solid #d6c400;
+color: #857c47;
+border: 1px solid #857c47;
 }
 .feature-text p {
 padding: 0 18px;
