@@ -159,8 +159,9 @@ font-size: 50px;
     margin: auto;
 }
 .features-img img {
-    width: 70%;
+    width: 530;
     border-radius: 10px;
+    height: 600;
 }
 .features h1 {
     text-align: left;
