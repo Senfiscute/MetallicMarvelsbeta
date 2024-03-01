@@ -166,7 +166,7 @@ font-size: 50px;
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #000;
+    color: #d6c400;
 }
 .features-desc {
     display: flex;
@@ -179,8 +179,8 @@ height: 50px;
 font-size: 30px;
 line-height: 50px;
 border-radius: 8px;
-color: #000;
-border: 1px solid #000;
+color: #d6c400;
+border: 1px solid #d6c400;
 }
 .feature-text p {
 padding: 0 18px;
