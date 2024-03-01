@@ -1,39 +1,136 @@
 <html>
 <head>
-<title>Metalic Marvels</title>
+<title>Metallic Marvels Website Design - HH N.</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<meta name="viewport" content="width=device-width,
+ initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-<div class="banner">
-<div class="navbar">
-<img src="logo.png" class="logo">
+
+<section id="banner">
+<img src="images/logo.png" class="logo">
+
+<div class="banner-text">
+<h1>Metalic Marvels</h1>
+<p>Handmade Unique Metal Art <br> Premade and Custom Art!</p>
+<div class="banner-btn">
+    <a href="#"><span></span>View Art</a>
+    <a href="#"><span></span>Read More</a>
+</div>
+</div>
+</section>
+
+
+<div id="sideNav">
+<nav>
 <ul>
 <li><a href="#">Home</a></li>
+<li><a href="#">Features</a></li>
 <li><a href="#">Services</a></li>
-<li><a href="#">About</a></li>
+<li><a href="#">Testimonials</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
+</nav>
+</div>
+     <div id="menuBtn">
+     <img src="images/menu.png" id="menu">
+     </div>
+
+    <!--Features-->
+
+
+<section id="feature">
+<div class="title-text">
+<p>Features</p>
+<h1>Why Choose Us</h1>
+</div>
+
+<div class="feature-box">
+<div class="features">
+<h1>We are Unique</h1>
+<div class="features-desc">
+<div class="feature-icon">
+<i class="fa fa-diamond"></i>
+</div>
+<div class="feature-text">
+<p>We make unique metal art. Our pieces are original
+ and can take upwards of 24 hours. Metal art is a
+  beauty unknown to many, each piece is a treasure of its own.
+  We enthusiastically try to satisfy our customers with these
+  hidden gems.</p>
+</div>
+</div>
+
+<h1>Custom Paintings</h1>
+<div class="features-desc">
+<div class="feature-icon">
+<i class="fa fa-paint-brush"></i>
+</div>
+<div class="feature-text">
+<p>We do not only do predesigned art, we also make custom 
+paintings. Upon request, you can select your own design.
+This could be for a special occasion like a wedding gift,
+or for any of your personal desires.</p>
+</div>
+</div>
+
+<h1>Simple Buying process</h1>
+<div class="features-desc">
+<div class="feature-icon">
+<i class="fa fa-ship"></i>
+</div>
+<div class="feature-text">
+<p>Metalic Marvels has a simple buying process, no catches
+included. Simply, you can browse our art via any of our 
+social platforms listed below. Then contact us through
+any of those platforms when you are ready to buy. After
+that it will be smooth sailing.</p>
+</div>
 </div>
 
 
-<div class="content">
-<h1>Metalic Marvels</h1>
-<p>Handmade Unique Metal Art <br>Premade and Custom Art!</p>
-
-
-<div>
-<button type="button"><span></span>View Art</button>
-
-<button type="button"><span></span>Instagram</button>
-
-
+</div>
+<div class="features-img">
+<img src="images/paintings5.jpg"
+</div>
 </div>
 
+</section>
 
 
 
 
-</div>
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function() {
+    if(sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+        menu.src = "images/redx.png";
+    }
+    else {
+       sideNav.style.right = "-250px"; 
+       menu.src = "images/menu.png";
+    }
+}
+</script>
+
+
 
 </body>
+
 </html>
