@@ -217,17 +217,18 @@ font-size: 25px;
     margin: auto;
 }
 .single-service {
-    flex-basis: 100%;
+    flex-basis: 48%;
     text-align: center;
     border-radius: 7px;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
+    width: 450px;
 }
 .single-service img {
-    width: 50%;
+    width: 100%;
     border-radius: 7px;
-    height: 60%;
+    height: 100%;
     display: inline-block;
 }
 .overlay {
