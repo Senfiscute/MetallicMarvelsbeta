@@ -392,7 +392,7 @@ border-radius: 25px;
 font-weight: bold;
 border: 2px solid #857c47;
 background: transparent;
-color: #fff;
+color: #b7bb2ad;
 cursor: pointer;
 position: relative;
 overflow: hidden;
@@ -410,7 +410,7 @@ transition: 0.5s;
 }
 .social-button:hover span {
     width: 100%;
-
+transform: translate(-5px);
 }
 .social-button:hover {
     border: none;
