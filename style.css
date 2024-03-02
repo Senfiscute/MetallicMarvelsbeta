@@ -307,15 +307,26 @@ bottom: 25% !important;
 .mini-gallery-pic {
     width: 60%;
 height: 65%;
-
 box-shadow: 0 10px 20px 3px #857c47;
 border-radius: 5px;
 flex-basis: 28%;
 cursor: pointer;
+    transition: transform .5s;
 }
 
 .mini-gallery-pic img{
 width: 100%;
     height: 100%;
     border-radius: 7px;
+}
+
+.mini-gallery-pic:hover {
+transform: translateY(-7px);
+}
+
+@media screen and (max-width: 770px) {
+.mini-gallery-pic {
+    flex-basis: 100%;
+
+}
 }
