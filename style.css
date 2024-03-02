@@ -204,13 +204,13 @@ font-size: 25px;
 }
 /*--service---*/
 #service {
- width: 80%;   
+ width: 100%;   
  padding: 70px 0;
  background: #efefef;
 
 }
 .service-box {
-    width: 80%:
+    width: 100%:
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
