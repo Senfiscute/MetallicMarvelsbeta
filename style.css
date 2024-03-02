@@ -226,8 +226,8 @@ font-size: 25px;
 }
 .single-service img {
     width: 500;
-    border-radius: 7px;
-    height: 700;
+    border-radius: none;
+    height: 600;
 }
 .overlay {
    width: 100%;
