@@ -286,3 +286,6 @@ bottom: 25% !important;
     width: 100%;
     padding: 70px 0;
 }
+.mini-gallery-pic img{
+width: 250;
+}
