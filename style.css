@@ -362,3 +362,8 @@ transform: translateY(-7px);
 line-height: 35px;
 }
 
+.footer-left .fa,.footer-right .fa {
+font-size: 20px;
+    color: 857c47;
+    margin: 10px;
+}
