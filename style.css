@@ -226,6 +226,7 @@ font-size: 25px;
     width: 450px;
     height: 500px;
     margin: auto;
+    items-align: center;
 }
 .single-service img {
     width: 100%;
@@ -293,8 +294,8 @@ bottom: 25% !important;
 .mini-gallery-pic {
 width: 450px;
 height: 500px;
-    margin: auto;
-    position: relative;
+    
+
 }
 
 .mini-gallery-pic img{
