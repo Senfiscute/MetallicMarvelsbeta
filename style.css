@@ -294,6 +294,7 @@ bottom: 25% !important;
 .mini-gallery-pic {
 width: 450px;
 height: 500px;
+    margin: auto;
 }
 
 .mini-gallery-pic img{
