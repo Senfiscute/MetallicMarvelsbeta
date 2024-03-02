@@ -220,13 +220,13 @@ font-size: 25px;
     flex-basis: 48%;
     text-align: center;
     border-radius: 7px;
+    padding: 3px;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
     width: 23%;
     height: 60%;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
      justify-content: space-between;
 }
 .single-service img {
