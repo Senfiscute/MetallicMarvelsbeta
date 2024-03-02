@@ -223,17 +223,17 @@ font-size: 25px;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: inline-block;
 }
 .single-service img {
-    width: 90%;
+    width: 100%;
     border-radius: 7px;
     height: 100%;
 }
 .overlay {
-   width: 90%;
+   width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
