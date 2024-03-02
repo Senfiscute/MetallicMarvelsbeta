@@ -225,7 +225,7 @@ font-size: 25px;
     position: relative;
 }
 .single-service img {
-    width: 100%;
+    width: 500;
     border-radius: 7px;
 }
 .overlay {
