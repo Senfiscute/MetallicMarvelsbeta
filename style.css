@@ -295,6 +295,7 @@ bottom: 25% !important;
 width: 450px;
 height: 500px;
     margin: auto;
+    position: relative;
 }
 
 .mini-gallery-pic img{
