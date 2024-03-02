@@ -223,8 +223,8 @@ font-size: 25px;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
-    width: 450px;
-    height: 500px;
+    width: 450;
+    height: 500;
     display: inline-block;
 }
 .single-service img {
@@ -296,14 +296,14 @@ bottom: 25% !important;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 1700px;
-    height: 600px;
+    width: 1700;
+    height: 600;
     margin: auto;
 
 }
 .mini-gallery-pic {
-width: 450px;
-height: 500px;
+width: 450;
+height: 500;
     display: inline-block;
 box-shadow: 0 10px 20px 3px #857c47;
 border-radius: 5px;
