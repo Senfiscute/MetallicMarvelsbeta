@@ -227,6 +227,7 @@ font-size: 25px;
 .single-service img {
     width: 500;
     border-radius: 7px;
+    height: 700;
 }
 .overlay {
    width: 100%;
@@ -288,4 +289,5 @@ bottom: 25% !important;
 }
 .mini-gallery-pic img{
 width: 250;
+    height: 300;
 }
