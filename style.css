@@ -334,6 +334,7 @@ transform: translateY(-7px);
 #footer {
    padding: 100px 0 20px;
     background: #efefef;
+    position: relative;
 }
 
 .footer-row {
@@ -367,3 +368,17 @@ font-size: 20px;
     color: 857c47;
     margin: 10px;
 }
+
+.footer-img {
+max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: traanslate(-50%,-50%);
+    
+}
+
+
+
+
