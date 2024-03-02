@@ -292,16 +292,23 @@ bottom: 25% !important;
 }
 .mini-gallery-row {
     padding: 15px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     width: 1700px;
     height: 600px;
     margin: auto;
+
 }
 .mini-gallery-pic {
 width: 450px;
 height: 500px;
     display: inline-block;
-
+box-shadow: 0 10px 20px 3px #857c47;
+border-radius: 5px;
+flex-basis: 28%;
+cursor: pointer;
 }
 
 .mini-gallery-pic img{
