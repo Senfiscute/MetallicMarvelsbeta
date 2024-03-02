@@ -228,13 +228,13 @@ font-size: 25px;
     display: inline-block;
 }
 .single-service img {
-    width: 80%;
+    width: 90%;
     border-radius: 7px;
-    height: 80%;
+    height: 100%;
 }
 .overlay {
-   width: 80%;
-    height: 80%;
+   width: 90%;
+    height: 100%;
     position: absolute;
     top: 0;
     border-radius: 7px;
