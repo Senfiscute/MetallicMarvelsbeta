@@ -286,9 +286,8 @@ bottom: 25% !important;
 }
 }
 #mini-gallery {
-    width: 33%;
+    width: 100%;
     padding: 70px 0;
-    display: inline-block;
 }
 .mini-gallery-pic img{
 width: 300px;
