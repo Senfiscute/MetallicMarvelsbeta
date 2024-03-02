@@ -223,7 +223,7 @@ font-size: 25px;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
-    width: 450px;
+    display: inline-block;
 }
 .single-service img {
     width: 100%;
