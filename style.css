@@ -204,7 +204,7 @@ font-size: 25px;
 }
 /*--service---*/
 #service {
- width: 100%;   
+ width: 80%;   
  padding: 70px 0;
  background: #efefef;
 
@@ -223,8 +223,8 @@ font-size: 25px;
     margin-bottom: 20px;
     color: #fff;
     position: relative;
-    width: 450;
-    height: 500;
+    width: 90%;
+    height: 100%;
     display: inline-block;
 }
 .single-service img {
