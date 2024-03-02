@@ -226,7 +226,6 @@ font-size: 25px;
     width: 450px;
     height: 500px;
     display: inline-block;
-    right: -5px;
 }
 .single-service img {
     width: 100%;
@@ -290,7 +289,6 @@ bottom: 25% !important;
 #mini-gallery {
     width: 100%;
     padding: 70px 0;
-    display: inline-block;
 }
 .mini-gallery-row {
     padding: 15px;
@@ -299,7 +297,7 @@ bottom: 25% !important;
 .mini-gallery-pic {
 width: 450px;
 height: 500px;
-    
+    display: inline-block;
 
 }
 
