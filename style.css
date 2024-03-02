@@ -226,7 +226,7 @@ font-size: 25px;
     width: 450px;
     height: 500px;
     display: inline-block;
-    
+    right: -5px;
 }
 .single-service img {
     width: 100%;
