@@ -225,6 +225,7 @@ font-size: 25px;
     position: relative;
     width: 450px;
     height: 500px;
+    display: inline-block;
     
 }
 .single-service img {
