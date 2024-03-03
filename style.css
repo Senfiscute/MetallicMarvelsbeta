@@ -390,15 +390,15 @@ text-align: center;
 margin: 20px 10px;
 border-radius: 25px;
 font-weight: bold;
-border: 2px solid #857c47;
-background: #857c47;
-color: #b7bb2ad;
+border: 2px solid #b7b2ad;
+background: transparent;
+color: #c1e1ec;
 cursor: pointer;
 position: relative;
 overflow: hidden;
 }
 span {
-    background: #857c47;
+    background: #c1e1ec;
     height: 100%;
     width: 0;
     border-radius: 25px;
