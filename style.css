@@ -227,7 +227,6 @@ font-size: 25px;
     width: 23%;
     height: 60%;
     display: inline-block;
-     justify-content: space-between;
 }
 .single-service img {
     width: 100%;
@@ -413,7 +412,7 @@ transition: 0.5s;
 transform: translateY(-5px);
 }
 .social-button:hover {
-    border: none;
+    border: 2px solid #b7b2ad;
 }
 
 .social-links p {
