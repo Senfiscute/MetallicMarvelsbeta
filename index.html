@@ -10,6 +10,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
 </head>
 
 
@@ -22,8 +25,8 @@
 <h1>Metalic Marvels</h1>
 <p>Handmade Unique Metal Art <br> Premade and Custom Art!</p>
 <div class="banner-btn">
-    <a href="#"><span></span>View Art</a>
-    <a href="#"><span></span>Read More</a>
+    <a href="#footer"><span></span>View Art</a>
+    <a href="#feature"><span></span>Read More</a>
 </div>
 </div>
 </section>
@@ -32,11 +35,11 @@
 <div id="sideNav">
 <nav>
 <ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Features</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Mini Gallery</a></li>
-<li><a href="#">Contact</a></li>
+<li><a href="#banner">Home</a></li>
+<li><a href="#feature">Features</a></li>
+<li><a href="#service">Services</a></li>
+<li><a href="#mini-gallery">Mini Gallery</a></li>
+<li><a href="#footer">Contact</a></li>
 </ul>
 </nav>
 </div>
@@ -254,6 +257,13 @@ menuBtn.onclick = function() {
        menu.src = "images/menu.png.png";
     }
 }
+
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+ 
 </script>
 
 
