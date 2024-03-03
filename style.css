@@ -217,7 +217,7 @@ font-size: 25px;
     margin: auto;
 }
 .single-service {
-    flex-basis: 100%;
+    flex-basis: 48%;
     text-align: center;
     border-radius: 7px;
     
@@ -276,6 +276,7 @@ opacity: 1;
     .single-service {
         flex-basis: 100%:
         margin-bottom: 30px;
+        align-items: center;
     }
     .service-desc p {
     font-size: 12px;
